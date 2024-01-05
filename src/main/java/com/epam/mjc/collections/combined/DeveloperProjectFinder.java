@@ -23,6 +23,6 @@ public class DeveloperProjectFinder {
     private void sortList(List<String> result) {
         result.sort((a,b) ->
                 a.length() < b.length() ? 1 :
-                        a.length() == b.length()? a.compareToIgnoreCase(a) : -1 );
+                        a.length() == b.length()? b.compareToIgnoreCase(a) : -1 );
     }
 }
